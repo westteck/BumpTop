@@ -1,0 +1,8 @@
+# The cmake build tree at the repo root only. An unanchored "build/" also
+# matched trunk/mac/Build/ (git ignores are case-insensitive on macOS), which
+# silently kept new files there — notably Info-port.plist — out of the repo.
+/build/
+/.port-deps/
+/dist/
+trunk/mac/Build/Mac/XCBuildData/
+.DS_Store
